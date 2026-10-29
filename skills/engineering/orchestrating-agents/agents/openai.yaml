@@ -1,0 +1,4 @@
+interface:
+  display_name: "Astra Orchestrator"
+  short_description: "Coordinate agent roles, models, and workflow"
+  default_prompt: "Use $orchestrating-agents to coordinate roles, model choices, and the approved workflow for this task."

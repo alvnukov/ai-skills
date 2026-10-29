@@ -6,6 +6,8 @@ Upstream commit: [84fdeffd12f2ee307994d1eb6feb48173b6e0502](https://github.com/m
 
 `investigate-codebase` is imported from [Data-System-School/agent-skills](https://github.com/Data-System-School/agent-skills) (MIT).
 
+`orchestrating-agents` is imported from the locally connected Astra Orchestrator plugin, version 0.1.0. This standalone copy includes the skill and its coordinator/worker references. Trusted hooks are provided separately by the Astra Orchestrator plugin; the skill does not switch the current chat model.
+
 These are modular skills, not a mandatory pipeline. Invoke only the skill needed for the current job.
 
 ## Installation
@@ -63,6 +65,7 @@ Start a new agent session after installation so the agent reloads its skill cata
 
 - Discovery: `grill-me`, `grilling`
 - Specification and planning: `to-spec`, `to-tickets`
+- Orchestration: `orchestrating-agents`
 - Delivery and review: `tdd`, `implement`, `code-review`
 - Debugging: `diagnosing-bugs`
 - Investigation: `investigate-codebase`
