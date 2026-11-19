@@ -1,4 +1,4 @@
 interface:
   display_name: "Astra Orchestrator"
-  short_description: "Coordinate agent roles, models, and workflow"
-  default_prompt: "Use $orchestrating-agents to coordinate roles, model choices, and the approved workflow for this task."
+  short_description: "Choose models for delegated work and independent review"
+  default_prompt: "Use $orchestrating-agents to choose a model for this delegated task, taking its risks and acceptance checks into account."
