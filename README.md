@@ -6,7 +6,7 @@ Upstream commit: [84fdeffd12f2ee307994d1eb6feb48173b6e0502](https://github.com/m
 
 `investigate-codebase` is imported from [Data-System-School/agent-skills](https://github.com/Data-System-School/agent-skills) (MIT).
 
-`orchestrating-agents` 0.2.3 is maintained here as the canonical Astra Orchestrator skill. It covers model selection for delegated work, long-running monitors, and independent review. All instructions are in [SKILL.md](skills/engineering/orchestrating-agents/SKILL.md). The [Codex plugin](https://github.com/alvnukov/codex-plugins) packages this same text with its launcher and records the source revision.
+`orchestrating-agents` 0.2.4 is maintained here as the canonical Astra Orchestrator skill. It covers model selection for delegated work, long-running monitors, and independent review. All instructions are in [SKILL.md](skills/engineering/orchestrating-agents/SKILL.md). The [Codex plugin](https://github.com/alvnukov/codex-plugins) packages the skill and its metadata for standard skill discovery and records the source revision. Version 0.2.4 removes plugin hooks and bootstrap; the skill instructions are unchanged from 0.2.3.
 
 These are modular skills, not a mandatory pipeline. Invoke only the skill needed for the current job.
 
